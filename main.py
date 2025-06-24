@@ -31,4 +31,4 @@ async def unlock(ctx, channel: nextcord.TextChannel):
     embed.add_field(name='Հաջողությամբ բացվեց ✅', value=f'{channel.mention} Զրուցարանը բացվեց. 🔓')
     await ctx.send(embed=embed)
 
-bot.run('MTI0MDAxNzk3NzQ3NTMzNDIxNQ.GA5D7F.DnUUAgA3ydKRKpWLKP7oj_7A_0WLeOHIhKj060')
+bot.run('YOUR_TOKEN')
